@@ -11,7 +11,7 @@ use "document.getElementById("<id>").innerHTML"  inside HTML page to display out
           <title>First java script lesson</title>
         </head>
         <body>
-          <h1 id="demo"><h1>
+          <h1 id="demo"></h1>
           <p>Contents above are being added from javascript<p>
           <script>
             document.getElementById("demo").innerHTML = "I am output from JavaScript"
