@@ -1,7 +1,7 @@
 # learn_java_script
 This is my java script learning project
 
-## Insert java script output in HTML 
+## Insert java script output in HTML (https://www.w3schools.com/js/js_intro.asp)
 use "document.getElementById("<id>").innerHTML"  inside HTML page to display output of java script in location where id match in HTML tags.
   Example
   ```
