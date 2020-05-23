@@ -18,3 +18,25 @@ use "document.getElementById("<id>").innerHTML"  inside HTML page to display out
           </script>
          </body> 
       </html>
+```
+  
+  ## Use java script to change image source by press of button
+  In this example, use button element to call java script to change image source inside image tag
+  
+  ```
+  <!DOCTYPE html>
+<html>
+    <head>
+        <title>First java script lesson</title>
+    </head>
+    <body>
+          <h1>ON and OFF bulb on press of button</h1>
+          <button onclick="document.getElementById('myimage').src='images/pic_bulbon.gif'">Turn ON</button>
+          <img id="myimage" src="images/pic_bulbon.gif">
+          <button onclick="document.getElementById('myimage').src='images/pic_bulboff.gif'">Turn OFF</button>
+    </body>
+</html>
+
+```
+  
+  
