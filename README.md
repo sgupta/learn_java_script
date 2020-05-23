@@ -39,4 +39,29 @@ use "document.getElementById("<id>").innerHTML"  inside HTML page to display out
 
 ```
   
+  ## Java script to change style (CSS)
   
+  ```
+  <!DOCTYPE html>
+<html>
+    <head>
+        <title>Third java script lesson</title>
+        <style>
+            p {
+                font-size: 20px;
+                text-decoration-style: wavy;
+            }
+        </style>
+    </head>
+    <body>
+          <h1>Change font size on press of button</h1>
+          <button onclick="document.getElementById('mytext').style.fontSize = '35px'">Font size 35</button>
+        <p id="mytext">This is my text</p>
+          <button onclick="document.getElementById('mytext').style.fontSize = '55px'">Font size 55</button>
+        <script>
+            let fsize = "45px";
+            document.getElementById('mytext').style.fontSize = fsize;
+        </script>
+    </body>
+</html>
+ ```
