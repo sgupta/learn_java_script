@@ -155,3 +155,41 @@ This used to provide users option to print page.
 </body>
 </html>>
 ```
+### Arithmetic operations 
+Most of Arithmetic operations are similar to other languages 
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arithmetic operations</title>
+        <style>
+            p {
+                font-size: 20px;
+                text-decoration-style: wavy;
+            }
+        </style>
+         <script src="js/setfontsize.js"> 
+        </script>
+    </head>
+    <body>
+          <h2>Print x + y using java script</h2>
+        <p> x = 10 , y = 20; 
+        <p>Result for x + y <p id="e1"></p>
+        <p>Result for x += y <p id="e2"></p>
+        <p>Result for x =+ y <p id="e3"></p>
+        <p>Result for x <<= y <p id="e4"></p>
+           <script>
+                var x = 10;
+                var y = 20;
+                var e1 = x + y;
+                var e2 = x += y;
+                var e3 = x =+ y;
+                var e4 = x <<= y;
+                document.getElementById("e1").innerHTML = e1;
+                document.getElementById("e2").innerHTML = e2;
+                document.getElementById("e3").innerHTML = e3;
+               document.getElementById("e4").innerHTML = e4;
+            </script>
+    </body>
+</html>
+```
