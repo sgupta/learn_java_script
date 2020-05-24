@@ -99,3 +99,5 @@ Java script function is block of code which can be called on event like press on
     </body>
 </html>
 ```
+## External java script 
+use ```<script src="js/setfontsize.js"></script>``` to load script from external source inside HTML page
