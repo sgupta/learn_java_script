@@ -65,3 +65,37 @@ use "document.getElementById("<id>").innerHTML"  inside HTML page to display out
     </body>
 </html>
  ```
+## Java script function
+Java script function is block of code which can be called on event like press on button. Example below
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Third java script lesson</title>
+        <style>
+            p {
+                font-size: 20px;
+                text-decoration-style: wavy;
+            }
+        </style>
+         <script>
+            function setFont45() {
+            let fsize = "45px";
+            document.getElementById('mytext').style.fontSize = fsize;
+            }
+            function setFont35() {
+            let fsize = "35px";
+            document.getElementById('mytext').style.fontSize = fsize;
+            }
+        </script>
+    </head>
+    <body>
+          <h1>Change font size on press of button</h1>
+          <button onclick="setFont35()">Font size 35</button>
+          <p id="mytext">This is my text</p>
+          <button onclick="setFont45()">Font size 45</button>
+       
+    </body>
+</html>
+```
