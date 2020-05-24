@@ -100,4 +100,58 @@ Java script function is block of code which can be called on event like press on
 </html>
 ```
 ## External java script 
-use ```<script src="js/setfontsize.js"></script>``` to load script from external source inside HTML page
+use ```<script src="js/setfontsize.js"></script>``` to load script from "js" directory inside HTML page.
+use ```<script src="https://www.w3schools.com/js/myScript1.js"></script>``` to load script from url inside HTML.
+
+## Java script output 
+There are few possibilities to send output from from java script. Like in some examples above we using HTML element to send java script output 
+
+###  HTML element, using innerHTML
+
+```
+<script>
+   document.getElementById("demo").innerHTML = "I am output from JavaScript"
+</script>
+```
+### HTML output using document.write()
+This is use for testing purpose. Using document.write() after an HTML document is loaded, will delete all existing HTML:
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+</body>
+</html>
+```
+###  Alert box, using window.alert()
+Pop an alert box 
+```
+<script>
+window.alert(5 + 6);
+</script>
+```
+### Browser console, using console.log()
+Also used for debugging as this output do not display to use in browser but visible in debug mode 
+```
+<script>
+console.log(5 + 6);
+</script>
+```
+### Print in java script 
+JavaScript does not have any print object or print methods.You cannot access output devices from JavaScript.The only exception is that you can call the window.print() method in the browser to print the content of the current window.
+This used to provide users option to print page.
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="window.print()">Print this page</button>
+
+</body>
+</html>>
+```
