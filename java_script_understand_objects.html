@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script Objects</title>
+        <style>
+            #code {
+                
+                font-family: sans-serif;
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Objects in Javascript</h1>
+        <h2>Create a object name "player" and add attributes to it</h2>
+        <p id="code">var player = {firstName:"Peter", lastNmae:"England", age:32, city:"Atlanta"};</p>
+        <h3>Print each object by using object.attribute</h3>
+        <h4>"player.firstname" will return</h4>
+        <p id="fn"></p>
+        <h4>"player.city" will return</h4>
+        <p id="ct"></p>
+        <h3>Add a method (function) to object to print full name</h3>
+        <p id="code"> var player = {
+            firstName:"Peter",
+            lastNmae:"England", 
+            printName:function() { this.firstName + " " + this.lastName }};
+        </p>
+        <h4>Now call method printName to print full name like player.printName()</h4>
+        <p id="pn"></p>
+        <h4>Now call method printWelcomeMessage to print welcome message like player.printName()</h4>
+        <p id="welcome"></p>
+        <script>
+            var player = {
+                firstName:"Peter",
+                lastName:"England",
+                age:32,
+                city:"Atlanta",
+                printName:function() {
+                    return this.firstName + " " + this.lastName;
+                },
+                printWelcomeMessage:function() {
+                    return "Welcome to game " + this.firstName + " " + this.lastName + " from " + player.city;
+                }
+            };
+            document.getElementById("fn").innerHTML = player.firstName;
+            document.getElementById("ct").innerHTML = player.city;
+            document.getElementById("pn").innerHTML = player.printName();
+            document.getElementById("welcome").innerHTML = player.printWelcomeMessage();
+        </script>
+        
+    </body>
+</html>
