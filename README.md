@@ -193,3 +193,26 @@ Most of Arithmetic operations are similar to other languages
     </body>
 </html>
 ```
+## Javascrpit Objects
+Objects are variables too. But objects can contain many values.This of objects are actual objects which has attributes and actions. To understand better , lets assume you building a game with many players. Player can be object with attributes like "firstName" and "lastName" ,"age" and "city" . Object can also have functions like print fullname of player , print welcome message for player. 
+
+```
+<script>
+            var player = {
+                firstName:"Peter",
+                lastName:"England",
+                age:32,
+                city:"Atlanta",
+                printName:function() {
+                    return this.firstName + " " + this.lastName;
+                },
+                printWelcomeMessage:function() {
+                    return "Welcome to game " + this.firstName + " " + this.lastName + " from " + player.city;
+                }
+            };
+            document.getElementById("fn").innerHTML = player.firstName;
+            document.getElementById("ct").innerHTML = player.city;
+            document.getElementById("pn").innerHTML = player.printName();
+            document.getElementById("welcome").innerHTML = player.printWelcomeMessage();
+        </script>
+ ```
