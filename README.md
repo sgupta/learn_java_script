@@ -233,7 +233,7 @@ Event can be something the browser does, or something a user does.Often, when ev
 </html>
 ```
 |Event|	Description|
---------------------
+|------|--------------|
 |onchange|	An HTML element has been changed|
 |onclick|	The user clicks an HTML element|
 |onmouseover|	The user moves the mouse over an HTML element|
