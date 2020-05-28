@@ -193,7 +193,7 @@ Most of Arithmetic operations are similar to other languages
     </body>
 </html>
 ```
-## Javascrpit Objects
+## Javascript Objects
 Objects are variables too. But objects can contain many values.This of objects are actual objects which has attributes and actions. To understand better , lets assume you building a game with many players. Player can be object with attributes like "firstName" and "lastName" ,"age" and "city" . Object can also have functions like print fullname of player , print welcome message for player. 
 
 ```
@@ -216,3 +216,27 @@ Objects are variables too. But objects can contain many values.This of objects a
             document.getElementById("welcome").innerHTML = player.printWelcomeMessage();
         </script>
  ```
+## Javascript events
+Event can be something the browser does, or something a user does.Often, when events happen, you may want to do something.JavaScript lets you execute code when events are detected.HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
+```
+<element event='some JavaScript'>
+#In the following example, an onclick attribute (with code), is added to a <button> element:
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+```
+|Event|	Description|
+--------------------
+|onchange|	An HTML element has been changed|
+|onclick|	The user clicks an HTML element|
+|onmouseover|	The user moves the mouse over an HTML element|
+|onmouseout|	The user moves the mouse away from an HTML element|
+|onkeydown|	The user pushes a keyboard key|
+|onload|	The browser has finished loading the page|
