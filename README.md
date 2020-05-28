@@ -224,7 +224,7 @@ Event can be something the browser does, or something a user does.Often, when ev
 <!DOCTYPE html>
 <html>
 <body>
-
+<h2 onmouseout="this.style.backgroundColor='white'" onmouseover="this.style.backgroundColor='red'">Color change to red when mouse hoover on this</h2>
 <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
 
 <p id="demo"></p>
