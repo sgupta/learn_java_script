@@ -243,6 +243,6 @@ Event can be something the browser does, or something a user does.Often, when ev
 
 ## Javascript string method and properties
 |type|noun|what| Example use string var text="This is a long string"|
-|----|----|----------------------------------------------------|
+|----|----|----|------------------------------------------------|
 |property|length|return length of string|text.length return  19|
 |method|indexOf() |returns the index of (the position of) the first occurrence of a specified text in a string|text.indexOf('long') will return 8|
