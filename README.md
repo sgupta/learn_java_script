@@ -245,4 +245,9 @@ Event can be something the browser does, or something a user does.Often, when ev
 |type|noun|what| Example use string var text="This is a long string"|
 |----|----|----|------------------------------------------------|
 |property|length|return length of string|text.length return  19|
-|method|indexOf() |returns the index of (the position of) the first occurrence of a specified text in a string|text.indexOf('long') will return 8|
+|method|indexOf() |returns the index of the first occurrence of a specified text in a string|text.indexOf('long') will return 10|
+|method|lastIndexOf()|returns the index of the last occurrence of a specified text in a string|text.lastIndexOf('is') will return 5|
+|method|search()|searches a string for a specified value and returns the position of the match|text.serach('a') will return a position|
+|method|slice(start,end)|extracts a part of a string and returns the extracted part in a new string||
+|method|substring(start,end)|similar to slice() but cannot accept negative indexes.||
+|method|substr(start,end)|similar to slice() but second parameter specifies the length of the extracted part||
