@@ -242,6 +242,7 @@ Event can be something the browser does, or something a user does.Often, when ev
 |onload|	The browser has finished loading the page|
 
 ## Javascript string method and properties
-|type|noun| Example use string var text="This is a long string"|
+|type|noun|what| Example use string var text="This is a long string"|
 |----|----|----------------------------------------------------|
-|property|length|text.length return  19|
+|property|length|return length of string|text.length return  19|
+|method|indexOf() |returns the index of (the position of) the first occurrence of a specified text in a string|text.indexOf('long') will return 8|
