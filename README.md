@@ -240,3 +240,8 @@ Event can be something the browser does, or something a user does.Often, when ev
 |onmouseout|	The user moves the mouse away from an HTML element|
 |onkeydown|	The user pushes a keyboard key|
 |onload|	The browser has finished loading the page|
+
+## Javascript string method and properties
+|type|noun| Example use string var text="This is a long string"|
+|----|----|----------------------------------------------------|
+|property|length|text.length return  19|
